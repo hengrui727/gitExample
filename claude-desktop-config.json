@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "emr-starrocks": {
+      "command": "node",
+      "args": ["/path/to/emr-starrocks-mcp/dist/index.js"],
+      "env": {
+        "ALIYUN_ACCESS_KEY_ID": "your_access_key_id",
+        "ALIYUN_ACCESS_KEY_SECRET": "your_access_key_secret",
+        "ALIYUN_REGION": "cn-hangzhou",
+        "STARROCKS_CLUSTER_ID": "your_cluster_id",
+        "STARROCKS_ENDPOINT": "https://your-cluster-endpoint.emrserverless.cn",
+        "STARROCKS_USERNAME": "your_username",
+        "STARROCKS_PASSWORD": "your_password"
+      }
+    }
+  }
+}
